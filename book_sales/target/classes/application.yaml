@@ -1,0 +1,1 @@
+spring:  datasource:    username: root    password: Cheeseistheanswer147    url: jdbc:mysql://localhost:3306/book_central
