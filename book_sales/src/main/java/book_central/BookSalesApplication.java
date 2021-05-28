@@ -1,5 +1,7 @@
 package book_central;
 
+
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,11 +9,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //@Configuration
 //@EnableAutoConfiguration
 //@ComponentScan
+
+
+
 public class BookSalesApplication {
 
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(BookSalesApplication.class, args);
 	}
+
+	
+
 
 }

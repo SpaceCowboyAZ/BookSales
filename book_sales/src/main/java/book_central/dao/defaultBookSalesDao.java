@@ -48,7 +48,8 @@ public class defaultBookSalesDao implements BookSalesDao {
 								
 								.title_id(rs.getString("title_id"))
 								.author_id(rs.getString("author_id"))
-								.author_id(rs.getString("customer_id"))
+								.isbn_id(rs.getString("isbn_id"))
+								.books_id(rs.getString("books_id"))
 								
 								.build();
 					}});
@@ -56,4 +57,5 @@ public class defaultBookSalesDao implements BookSalesDao {
 		
 			
 	}
+
 
